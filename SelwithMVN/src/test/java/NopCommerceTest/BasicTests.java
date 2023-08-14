@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import java.io.IOException;
-public class basic_Tests extends base{
+
+public class BasicTests extends base{
     @Test(description = "NopCommerce Logo visibility Check")
     public void TC001() throws InterruptedException {
         boolean image = driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[2]/div[1]/a/img")).isDisplayed();
